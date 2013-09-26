@@ -1,0 +1,59 @@
+/*===============================================================================
+* HEADER
+*================================================================================*/
+
+.tittle {
+	color: #606060;
+	font: bold 43px/1.2em 'Noticia Text';	
+}
+
+.subtittle {
+	margin-top: -10px;
+	color: #606060;
+    font: 25px/1.2em 'Noticia Text';
+}
+
+/* Navigation
+*================================================================================*/
+
+.nav-light {	
+	font: normal 12px/1.2em Noticia Text;
+	line-height: 12px;
+	text-transform: uppercase;
+}
+
+.nav-light li {
+	display: inline-block;
+	padding-right: 20px;		
+}
+
+.nav-light a {
+	color: #c3bfbe;
+}
+
+.nav-light a:hover {
+	color: #61CFD3;
+}
+
+.active a {
+	color: #61CFD3;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: transparent;
+}
+
+
+/*===============================================================================
+* CONTAINER
+*================================================================================*/
+
+.container {
+	padding: 4em 1em;
+	max-width: 100%;
+	background-color: #e0e0e0; 
+}
+
+/*===============================================================================
+* FOOTER
+*================================================================================*/
