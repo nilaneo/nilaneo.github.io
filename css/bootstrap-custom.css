@@ -1,3 +1,7 @@
+body {
+	min-width: 460px;
+}
+
 /*===============================================================================
 * HEADER
 *================================================================================*/
@@ -57,6 +61,7 @@
 .greeting {
 	color: #606060;	
 	font: 46px 'Noticia Text';
+	line-height: 20px;
 }
 
 .greeting strong {
@@ -124,6 +129,15 @@
 *================================================================================*/
 
 footer {
-	height: 120px;
+	min-height: 160px;	
+	padding-top: 40px;
 	background-color: #cb63ed;
+}
+
+footer span {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #61cfd3;
 }
