@@ -8,7 +8,7 @@
 }
 
 .subtittle {
-	margin-top: -10px;
+	margin-top: -4px;
 	color: #606060;
     font: 25px/1.2em 'Noticia Text';
 }
@@ -17,7 +17,7 @@
 *================================================================================*/
 
 .nav-light {	
-	font: normal 12px/1.2em Noticia Text;
+	font: normal 12px/1.2em 'Noticia Text';
 	line-height: 12px;
 	text-transform: uppercase;
 }
@@ -45,15 +45,85 @@
 
 
 /*===============================================================================
-* CONTAINER
+* MAIN
 *================================================================================*/
 
-.container {
+.main {
 	padding: 4em 1em;
-	max-width: 100%;
-	background-color: #e0e0e0; 
+	border-bottom: 4px solid #fff;
+	background-color: #e0e0e0;
 }
+
+.greeting {
+	color: #606060;	
+	font: 46px 'Noticia Text';
+}
+
+.greeting strong {
+	color: #606060;	
+	font: bolder 2em 'Noticia Text';
+	letter-spacing: -4px;	
+}
+
+.links-info li {
+	padding: 10px;
+	padding-left: 0;
+}
+
+.links-info a {	
+	display: table-cell;
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	background-color: #e83556;	
+    text-align: center;
+    vertical-align: middle;
+	color: #fff;
+	font: 13px Open Sans;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 30px;
+}
+
+.links-info .link-resume {
+	background-color: #cb63ed;		
+}
+
+.link-resume:hover {
+	background-color: #8c36a8;
+	transition: background-color 0.4s ease 0s;
+}
+
+.links-info .link-work {
+	background-color: #61cfd3;	
+}
+
+.link-work:hover {
+	background-color: #408a8d;
+	transition: background-color 0.4s ease 0s;
+}
+
+.links-info .link-skills {
+	background-color: #d1c825;	
+}
+
+.link-skills:hover {
+	background-color: #8b8519;
+	transition: background-color 0.4s ease 0s;
+}
+
+.about-text {	
+	color: #606060;
+	font: 14px 'Noticia Text';
+}
+
+
 
 /*===============================================================================
 * FOOTER
 *================================================================================*/
+
+footer {
+	height: 120px;
+	background-color: #cb63ed;
+}
