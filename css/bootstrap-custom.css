@@ -55,6 +55,7 @@ body {
 .main {
 	padding: 4em 1em;
 	border-bottom: 4px solid #fff;
+	margin-top: 20px;
 	background-color: #e0e0e0;
 }
 
@@ -136,8 +137,28 @@ footer {
 
 footer span {
 	display: inline-block;
-	width: 35px;
-	height: 35px;
+	padding: 10px;	
+	color: #fff;
+	font: 13px 'Noticia Text', sans-serif;
+	letter-spacing: .2px;
+}
+
+footer a,
+footer a:hover {
+	margin-right: 8px;
+	text-decoration: none;
+	color: #fff;
+} 
+
+.footer-icon {
+	display: inline-block;	
+	width: 50px;
+	height: 50px;
+	padding: 0;
 	border-radius: 50%;
 	background-color: #61cfd3;
+	color: #fff;
+	font: 14px;
+	line-height: 60px;
+	text-align: center;
 }
