@@ -1,6 +1,10 @@
-body {
-	min-width: 460px;
+html {
+	height: 100%;
 	background-color: #cb63ed;
+}
+
+body {
+	min-width: 460px;	
 }
 
 /*===============================================================================
