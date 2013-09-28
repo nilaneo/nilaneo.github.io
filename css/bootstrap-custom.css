@@ -132,6 +132,10 @@ body {
 /* RESUME
 *================================================================================*/
 
+.resume {
+	padding-top: 0;
+}
+
 .tittle-resume {
 	color: #fff;
 	font-size: 80px;
