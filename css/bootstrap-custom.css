@@ -13,7 +13,7 @@ body {
 
 .tittle {
 	color: #606060;
-	font: bold 43px/1.2em 'Noticia Text';	
+	font: bold 43px/1.2em 'Noticia Text', sans-serif;	
 }
 
 .subtittle {
@@ -127,6 +127,77 @@ body {
 	color: #606060;
 	font: 14px 'Noticia Text';
 }
+
+
+/* RESUME
+*================================================================================*/
+
+.tittle-resume {
+	color: #fff;
+	font-size: 80px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.information-main {
+	padding: 20px 0;
+	border-top: 1px solid #c3bfbe;
+}
+
+.circle {
+	display: table-cell;
+	width: 120px;
+	height: 120px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 50%;
+	background-color: #cb63ed;	
+	vertical-align: middle;
+}
+
+.info-name {	
+	color: #fff;
+	font: 17px 'Noticia Text', sans-serif;
+}
+
+.info-text {
+	display: table-cell;
+	padding-top: 20px;
+	padding-left: 20px;
+	color: #606060;
+	font: 16px "sans-serif";
+}
+
+.side-info {
+	margin-top: 100px;
+}
+
+.resume-icon {
+	display: table-cell;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: #cb63ed;
+	color: #fff;
+	text-align: center;	
+	vertical-align: middle;
+}
+
+.information-extra .info-name {
+	display: block;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c3bfbe;
+	color: #606060;
+}
+
+.skills, 
+.languages {
+	padding-left: 0;
+	list-style-type: none;
+	color: #606060;
+	font: 14px "sans-serif";
+}
+
 
 
 
