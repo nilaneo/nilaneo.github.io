@@ -263,6 +263,55 @@ body {
 	color: #fff;
 }
 
+/* CONTACT
+*================================================================================*/
+
+.contact-item {
+	padding: 10px 0;
+}
+
+.contact-info {
+	width: 80px;
+	height: 80px;
+	padding: 0;
+	background-color: #61cfd3;
+	text-align: center;
+}
+
+.info-text-contact {
+	vertical-align: middle;
+}
+
+.social-networks {
+	padding-top: 150px;
+}
+
+.tittle-follow {
+	font-size: 28px;
+}
+
+.follow-links {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.follow-links li {
+	padding: 10px 0;
+}
+
+
+.follow-links a {
+	color: #fff;	
+}
+
+.social-network-name {
+	padding-left: 10px;
+	color: #606060;
+	font: 16px "sans-serif";
+}
+
+
+
 /*===============================================================================
 * FOOTER
 *================================================================================*/
