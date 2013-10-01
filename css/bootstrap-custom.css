@@ -13,20 +13,20 @@ body {
 
 .tittle {
 	color: #606060;
-	font: bold 43px/1.2em 'Noticia Text', sans-serif;	
+	font: bold 43px/1.2em "Noticia Text", sans-serif;	
 }
 
 .subtittle {
 	margin-top: -4px;
 	color: #606060;
-    font: 25px/1.2em 'Noticia Text';
+    font: 25px/1.2em "Noticia Text";
 }
 
 /* Navigation
 *================================================================================*/
 
 .nav-light {	
-	font: normal 12px/1.2em 'Noticia Text';
+	font: normal 12px/1.2em "Noticia Text";
 	line-height: 12px;
 	text-transform: uppercase;
 }
@@ -66,13 +66,13 @@ body {
 
 .greeting {
 	color: #606060;	
-	font: 46px 'Noticia Text';
+	font: 46px "Noticia Text";
 	line-height: 20px;
 }
 
 .greeting strong {
 	color: #606060;	
-	font: bolder 2em 'Noticia Text';
+	font: bolder 2em "Noticia Text";
 	letter-spacing: -4px;	
 }
 
@@ -125,7 +125,7 @@ body {
 
 .about-text {	
 	color: #606060;
-	font: 14px 'Noticia Text';
+	font: 14px "Noticia Text";
 }
 
 
@@ -136,7 +136,7 @@ body {
 	padding-top: 0;
 }
 
-.tittle-resume {
+.tittle-section {
 	color: #fff;
 	font-size: 80px;
 	font-weight: normal;
@@ -161,7 +161,7 @@ body {
 
 .info-name {	
 	color: #fff;
-	font: 17px 'Noticia Text', sans-serif;
+	font: 17px "Noticia Text", sans-serif;
 }
 
 .info-text {
@@ -202,8 +202,66 @@ body {
 	font: 14px "sans-serif";
 }
 
+/* PROJECTS
+*================================================================================*/
 
+.projects {
+	padding: 0;
+}
 
+.project {	
+	border-bottom: 1px solid #c3bfbe;
+	padding: 40px 0;
+}
+
+.project-tittle {
+	padding: 10px 0;	
+	margin-top: 10px;
+	color: #606060;
+	font: 17px "Noticia Text", sans-serif;
+}
+
+.project-description-text {
+	padding: 10px 0;
+	color: #606060;
+	font: 13px "Open Sans", sans-serif;
+}
+
+.used-techs {	
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font: 12px "Open Sans", sans-serif;	
+}
+
+.tech {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	padding: 0;	
+	margin-right: 20px;
+	border-radius: 50%;
+	background-color: #cb63ed;
+	line-height: 50px;
+	text-align: center;
+}
+
+.see-more {
+	padding: 20px 0;
+	color: #606060;
+	font: 17px "Noticia Text", sans-serif;
+}
+
+.see-more-text {
+	padding-top: 40px;
+}
+
+.talk {
+	width: 90px;
+	height: 90px;
+	background-color: #61cfd3;
+	color: #fff;
+}
 
 /*===============================================================================
 * FOOTER
@@ -219,7 +277,7 @@ footer span {
 	display: inline-block;
 	padding: 10px;	
 	color: #fff;
-	font: 13px 'Noticia Text', sans-serif;
+	font: 13px "Noticia Text", sans-serif;
 	letter-spacing: .2px;
 }
 
