@@ -327,6 +327,7 @@ footer {
 	min-height: 150px;	
 	padding-top: 40px;
 	background-color: #cb63ed;
+	text-align: center;
 }
 
 footer span {
@@ -335,6 +336,7 @@ footer span {
 	color: #fff;
 	font: 13px "Noticia Text", sans-serif;
 	letter-spacing: .2px;
+	text-align: left;
 }
 
 footer a,
@@ -365,10 +367,26 @@ footer a:hover {
 	padding-right: 0;
 }
 
-@media (max-width: 767px) {
-	.footer-col-xs-center {
-		width: 280px;
-		padding: 0;
-		margin: 0 auto;
+@media (max-width: 991px) {
+	.footer-item-right {
+		width: 300px;
 	}
+
+	.footer-item-left {
+		width: 100px;
+	}	
+}
+
+@media (max-width: 767px) {
+	.footer-item {
+		padding-left: 80px;
+	}
+
+	.footer-item-right {
+		width: 300px;
+	}
+
+	.footer-item-left {
+		width: 285px;
+	}	
 }
