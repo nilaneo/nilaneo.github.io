@@ -7,13 +7,6 @@ body {
 	min-width: 460px;	
 }
 
-.main {
-	padding: 4em 1em;
-	border-bottom: 4px solid #fff;
-	margin-top: 20px;
-	background-color: #e0e0e0;
-}
-
 /*===============================================================================
 * HEADER
 *================================================================================*/
@@ -60,7 +53,40 @@ body {
 }
 
 /*===============================================================================
-* HOME
+* SECTIONS
+*================================================================================*/
+
+.main {
+	padding: 4em 1em;
+	border-bottom: 4px solid #fff;
+	margin-top: 20px;
+	background-color: #e0e0e0;
+}
+
+.tittle-section {
+	color: #fff;
+	font-size: 80px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.circle {
+	display: table-cell;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: #cb63ed;	
+	vertical-align: middle;
+}
+
+.circle-resume {
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+
+
+/* HOME
 *================================================================================*/
 .greeting {
 	color: #606060;	
@@ -80,13 +106,8 @@ body {
 }
 
 .links-info a {	
-	display: table-cell;
-	height: 120px;
-	width: 120px;
-	border-radius: 50%;
 	background-color: #e83556;	
     text-align: center;
-    vertical-align: middle;
 	color: #fff;
 	font: 13px Open Sans;
 	text-transform: uppercase;
@@ -134,27 +155,9 @@ body {
 	padding-top: 0;
 }
 
-.tittle-section {
-	color: #fff;
-	font-size: 80px;
-	font-weight: normal;
-	text-transform: uppercase;
-}
-
-.information-main {
+.resume-info {
 	padding: 20px 0;
 	border-top: 1px solid #c3bfbe;
-}
-
-.circle {
-	display: table-cell;
-	width: 120px;
-	height: 120px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	border-radius: 50%;
-	background-color: #cb63ed;	
-	vertical-align: middle;
 }
 
 .info-name {	
@@ -164,8 +167,7 @@ body {
 
 .info-text {
 	display: table-cell;
-	padding-top: 20px;
-	padding-left: 20px;
+	padding-top: 20px;	
 	color: #606060;
 	font: 16px "sans-serif";
 }
@@ -361,6 +363,10 @@ footer a:hover {
 	text-align: center;
 }
 
+.remove-left-padding {
+	padding-left: 0;
+}
+
 .remove-right-padding {
 	padding-right: 0;
 }
@@ -409,4 +415,10 @@ footer a:hover {
 	.greeting {
 		text-align: center;
 	}
+}
+
+@media (min-width: 991px) {
+	.resume-info-name {
+		width: 130px;
+	}	
 }
