@@ -7,6 +7,13 @@ body {
 	min-width: 460px;	
 }
 
+.main {
+	padding: 4em 1em;
+	border-bottom: 4px solid #fff;
+	margin-top: 20px;
+	background-color: #e0e0e0;
+}
+
 /*===============================================================================
 * HEADER
 *================================================================================*/
@@ -52,19 +59,9 @@ body {
     background-color: transparent;
 }
 
-
 /*===============================================================================
-* MAIN
+* HOME
 *================================================================================*/
-.tab-content {
-}
-.main {
-	padding: 4em 1em;
-	border-bottom: 4px solid #fff;
-	margin-top: 20px;
-	background-color: #e0e0e0;
-}
-
 .greeting {
 	color: #606060;	
 	font: 46px "Noticia Text";
@@ -368,6 +365,10 @@ footer a:hover {
 	padding-right: 0;
 }
 
+/*===============================================================================
+* MEDIA QUERIES
+*================================================================================*/
+
 @media (max-width: 991px) {
 	.footer-item-right {
 		width: 300px;
@@ -390,4 +391,22 @@ footer a:hover {
 	.footer-item-left {
 		width: 285px;
 	}	
+
+	.wrapper-header {
+		text-align: center;		
+	}	
+
+	.wrapper-home {
+		width: 450px;
+		margin: 0 auto;
+	}
+
+	.img-circle {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.greeting {
+		text-align: center;
+	}
 }
