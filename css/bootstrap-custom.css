@@ -7,13 +7,27 @@ body {
 	min-width: 460px;	
 }
 
+a:focus {
+  outline: none;  
+}
+
+
 /*===============================================================================
 * HEADER
 *================================================================================*/
 
 .tittle {
 	color: #606060;
-	font: bold 43px/1.2em "Noticia Text", sans-serif;	
+	font: bold 43px/1.2em "Noticia Text", sans-serif;
+}
+
+.tittle a {
+	color: #606060;
+}
+
+.tittle a:hover {
+	color: #606060;
+	text-decoration: none;
 }
 
 .subtittle {
@@ -170,6 +184,14 @@ body {
 	padding-top: 20px;	
 	color: #606060;
 	font: 16px "sans-serif";
+}
+
+.download{
+	background-color: #d1c825;
+}
+
+.download:hover {
+	background-color: #8b8519;
 }
 
 .side-info {
@@ -423,7 +445,7 @@ footer a:hover {
 	}	
 }
 
-@media (max-width: 450px) {
+/*@media (max-width: 450px) {
 	.col-xs-12,
 	.col-lg-12 {
 		padding-left: 0;
@@ -559,4 +581,4 @@ footer a:hover {
 	.footer-item-left {
 		width: 320px;
 	}
-}
+}*/
