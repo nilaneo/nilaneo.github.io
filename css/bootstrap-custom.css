@@ -16,22 +16,22 @@ a:focus {
 * HEADER
 *================================================================================*/
 
-.tittle {
+.title {
 	color: #606060;
 	font: bold 43px/1.2em "Noticia Text", sans-serif;
 }
 
-.tittle a {
+.title a {
 	color: #606060;
 }
 
-.tittle a:hover,
-.tittle a:focus {
+.title a:hover,
+.title a:focus {
 	color: #606060;
 	text-decoration: none;
 }
 
-.subtittle {
+.subtitle {
 	margin-top: -4px;
 	color: #606060;
     font: 25px/1.2em "Noticia Text";
@@ -78,7 +78,7 @@ a:focus {
 	background-color: #e0e0e0;
 }
 
-.tittle-section {
+.title-section {
 	color: #fff;
 	font-size: 80px;
 	font-weight: normal;
@@ -243,7 +243,7 @@ a:focus {
 	padding: 0;
 }
 
-.project-tittle {
+.project-title {
 	padding-top: 0;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #c3bfbe;
@@ -346,24 +346,22 @@ a:focus {
 }
 
 .contact-items {
+	padding-left: 20px;
 	color: #606060;
 	font: 20px "Open sans", sans-serif;
 }
 
-.tittle-follow {
+.title-follow {
 	font-size: 28px;
 }
 
 .follow-links {
-	float: right;
-	padding-top: 30px 0;
-	list-style-type: none;
+	padding: 30px;
 }
 
 .follow-links li {
-	padding: 10px;
+	padding: 0 20px; 
 }
-
 
 .follow-links a {
 	color: #fff;	
@@ -483,6 +481,27 @@ footer a:hover {
 		margin-top: 0;
 		border-top: 1px solid #c3bfbe;
 	}
+
+	.dl-horizontal dd {
+		margin-left: 0;
+	}
+	
+	.contact-items,
+	.follow-links,
+	.used-techs,
+	.project-name,
+	.title-section {
+		text-align: center;
+	}
+
+	.contact-items dt {
+		float: none;
+		width: 100%;
+	}
+
+	.carousel {
+		margin: 0 auto;
+	}
 }
 
 @media (max-width: 479px) {
@@ -522,7 +541,7 @@ footer a:hover {
 		text-align: justify;
 	}
 
-	.tittle-section {
+	.title-section {
 		font-size: 60px;
 	}
 
