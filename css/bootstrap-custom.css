@@ -25,7 +25,8 @@ a:focus {
 	color: #606060;
 }
 
-.tittle a:hover {
+.tittle a:hover,
+.tittle a:focus {
 	color: #606060;
 	text-decoration: none;
 }
@@ -352,7 +353,13 @@ a:focus {
 	font: 16px "sans-serif";
 }
 
+.dl-horizontal dd {
+	margin-left: 165px;
+}
 
+.dl-horizontal dt {
+	width: 135px;
+}
 
 /*===============================================================================
 * FOOTER
