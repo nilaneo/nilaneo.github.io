@@ -198,7 +198,7 @@ a:focus {
 	text-decoration: none;
 }
 .side-info {
-	margin-top: 100px;
+	margin-top: 51px;
 }
 
 .circle-resume-icon {
@@ -296,13 +296,20 @@ a:focus {
 }
 
 .see-more {
-	padding: 20px 0;
+	padding: 20px;
 	color: #606060;
 	font: 17px "Noticia Text", sans-serif;
 }
 
 .see-more-text {
-	padding-top: 40px;
+	display: table;
+	height: 90px;
+	margin-right: 100px;
+}
+
+.see-more-text-inner {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .talk {
@@ -313,6 +320,10 @@ a:focus {
 	color: #fff;
 	text-align: center;
 	line-height: 90px;
+}
+
+.carousel {
+	max-width: 500px;
 }
 
 /* CONTACT
@@ -512,7 +523,7 @@ footer a:hover {
 	}
 
 	.tittle-section {
-		padding-left: 20px;
+		font-size: 60px;
 	}
 
 	.info-text {
