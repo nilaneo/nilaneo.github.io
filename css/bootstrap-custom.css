@@ -59,7 +59,7 @@ a:focus {
 	color: #61CFD3;
 }
 
-.active a {
+.nav-light .active a {
 	color: #61CFD3;
 }
 
@@ -86,21 +86,17 @@ a:focus {
 }
 
 .circle {
-	display: table-cell;
+	display: table;
 	width: 120px;
 	height: 120px;
 	border-radius: 50%;
 	background-color: #cb63ed;	
+}
+
+.circle-text {
+	display: table-cell;
 	vertical-align: middle;
 }
-
-.circle-resume {
-	padding-bottom: 10px;
-	padding-left: 10px;
-}
-
-
-
 /* HOME
 *================================================================================*/
 .greeting {
@@ -175,39 +171,50 @@ a:focus {
 	border-top: 1px solid #c3bfbe;
 }
 
-.info-name {	
+.info-name {
 	color: #fff;
 	font: 17px "Noticia Text", sans-serif;
 }
 
 .info-text {
-	display: table-cell;
-	padding-top: 20px;	
+	margin-left: 120px;
+	padding: 20px;
 	color: #606060;
 	font: 16px "sans-serif";
 }
 
-.download{
+.circle-download {
 	background-color: #d1c825;
 }
 
-.download:hover {
+.circle-download:hover {
 	background-color: #8b8519;
 }
 
+.circle-download,
+.circle-download:hover,
+.circle-download:focus {
+	color: #fff;
+	text-decoration: none;
+}
 .side-info {
 	margin-top: 100px;
 }
 
-.resume-icon {
-	display: table-cell;
+.circle-resume-icon {
+	float: left;
 	width: 45px;
 	height: 45px;
-	border-radius: 50%;
-	background-color: #cb63ed;
+	margin-right: 10px;
 	color: #fff;
 	text-align: center;	
-	vertical-align: middle;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.circle-resume-title {
+	padding-right: 0;
+	line-height: 45px;
 }
 
 .information-extra .info-name {
@@ -219,12 +226,16 @@ a:focus {
 
 .skills, 
 .languages {
-	padding-left: 0;
-	list-style-type: none;
+	padding-left: 20px;
 	color: #606060;
 	font: 14px "sans-serif";
 }
 
+.circle-resume {
+	float: left;
+	padding: 10px;
+	text-align: center;
+}
 /* PROJECTS
 *================================================================================*/
 
@@ -447,11 +458,6 @@ footer a:hover {
 		text-align: center;
 	}	
 
-/*	.wrapper-home {
-		width: 450px;
-		margin: 0 auto;
-	}*/
-
 	.img-circle {
 		display: block;
 		margin: 0 auto;
@@ -460,22 +466,15 @@ footer a:hover {
 	.greeting {
 		text-align: center;
 	}
-}
 
-@media (min-width: 991px) {
-	.resume-info-name {
-		width: 140px;
-	}	
+	.side-info {
+		padding-top: 20px;
+		margin-top: 0;
+		border-top: 1px solid #c3bfbe;
+	}
 }
 
 @media (max-width: 479px) {
-/*	.col-xs-12,
-	.col-lg-12 {
-		padding-left: 0;
-		margin-left: 0;
-	}
-*/
-
 	.nav-light {	
 		font: normal 8px;
 		line-height: 8px;
@@ -499,7 +498,7 @@ footer a:hover {
 		line-height: 20px;
 	}	
 
-	.circle {
+	.circle-xs-responsive {
 		width: 80px;
 		height: 80px;
 	}
@@ -510,5 +509,42 @@ footer a:hover {
 
 	.about-text {
 		text-align: justify;
+	}
+
+	.tittle-section {
+		padding-left: 20px;
+	}
+
+	.info-text {
+		padding: 0 20px;
+		margin-left: 0;
+	}
+
+	.circle-resume {
+		display: block;
+		float: none;
+		width: 100%;
+		height: auto;
+		padding: 10px 20px;
+		margin: 0;
+		background: none;
+		color: #606060;
+		font-size: 30px;
+		font-weight: bold;
+		border-radius: 0;
+	}
+
+	.circle-download {
+		text-decoration: underline;
+	}
+
+	.circle-download:hover,
+	.circle-download:focus {
+		background: none;
+		text-decoration: none;
+	}
+
+	.circle-resume-title {
+		font-size: 14px;
 	}
 }
