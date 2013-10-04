@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	min-width: 460px;	
+	min-width: 320px;	
 }
 
 a:focus {
@@ -310,16 +310,21 @@ a:focus {
 	border-bottom: 1px solid #c3bfbe;
 }
 
-.contact-item {
-	padding: 10px 0;
-}
-
-.contact-info {
+.contact-link {
 	width: 80px;
 	height: 80px;
 	padding: 0;
-	background-color: #61cfd3;
+	background-color: #cb63ed;	
 	text-align: center;
+}
+
+.contact-link:hover {
+	background-color: #8c36a8;
+}
+
+.contact-items {
+	color: #606060;
+	font: 20px "Open sans", sans-serif;
 }
 
 .tittle-follow {
@@ -327,6 +332,7 @@ a:focus {
 }
 
 .follow-links {
+	float: right;
 	padding-top: 30px 0;
 	list-style-type: none;
 }
@@ -415,26 +421,28 @@ footer a:hover {
 }
 
 @media (max-width: 767px) {
-	.footer-item {
-		padding-left: 80px;
-	}
 
 	.footer-item-right {
-		width: 300px;
+		width: 220px;
 	}
 
 	.footer-item-left {
-		width: 285px;
+		width: 220px;
 	}	
 
-	.wrapper-header {
+	.header {
 		text-align: center;		
+	}
+
+
+	.links-info {
+		text-align: center;
 	}	
 
-	.wrapper-home {
+/*	.wrapper-home {
 		width: 450px;
 		margin: 0 auto;
-	}
+	}*/
 
 	.img-circle {
 		display: block;
@@ -452,58 +460,55 @@ footer a:hover {
 	}	
 }
 
-/*@media (max-width: 450px) {
-	.col-xs-12,
+@media (max-width: 450px) {
+/*	.col-xs-12,
 	.col-lg-12 {
 		padding-left: 0;
 		margin-left: 0;
 	}
-
-	.tittle {
-		font-size: 23px;	
-	}
-
-	.subtittle {
-		font-size: 15px;
-	}
+*/
 
 	.nav-light {	
 		font: normal 8px;
 		line-height: 8px;
 	}	
 
-	.links-info {
-		text-align: center;
-	}
-
 	.nav-light li {
-		padding-right: 2px;		
-	}
-	
-	.main {
-		padding: 2em 1em;
-		border-bottom: 4px solid #fff;
-		margin-top: 10px;
+		padding-right: 0;		
 	}
 
-	.tittle-section {
-		font-size: 60px;
+	.nav-light li a {
+		padding: 10px;	
 	}
-
-	.circle {
-		width: 80px;
-		height: 80px;
-	}	
 
 	.greeting {
-		font-size: 26px;
+		font-size: 37px;
 		line-height: 10px;
-	}	
+	}
 
 	.links-info a {	
 		font-size: 12px;		
 		line-height: 20px;
 	}	
+
+	.circle {
+		width: 80px;
+		height: 80px;
+	}
+
+	.main {
+		padding: 20px 0;
+	}
+
+	.about-text {
+		text-align: justify;
+	}
+
+/*		
+
+	.tittle-section {
+		font-size: 60px;
+	}
 
 	.about-text {	
 		font-size: 12px;
@@ -587,5 +592,5 @@ footer a:hover {
 
 	.footer-item-left {
 		width: 320px;
-	}
-}*/
+	}*/
+}
