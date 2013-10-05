@@ -226,7 +226,7 @@ a:focus {
 
 .skills, 
 .languages {
-	padding-left: 20px;
+	padding-left: 0;
 	color: #606060;
 	font: 14px "sans-serif";
 	list-style-type: none;
@@ -320,6 +320,16 @@ a:focus {
 	color: #fff;
 	text-align: center;
 	line-height: 90px;
+}
+
+.talk:hover {
+	background-color: #408a8d;
+}
+
+.talk:hover,
+.talk:focus {
+	color: #fff;
+	text-decoration: none;
 }
 
 .carousel {
