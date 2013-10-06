@@ -99,6 +99,7 @@ a:focus {
 }
 /* HOME
 *================================================================================*/
+
 .greeting {
 	color: #606060;	
 	font: 46px "Noticia Text";
@@ -181,6 +182,7 @@ a:focus {
 	padding: 20px;
 	color: #606060;
 	font: 16px "sans-serif";
+	vertical-align: middle;
 }
 
 .circle-download {
@@ -227,13 +229,14 @@ a:focus {
 .skills, 
 .languages {
 	padding-left: 0;
-	color: #606060;
+	color: #fff;
 	font: 14px "sans-serif";
 	list-style-type: none;
 }
 
 .skills li, 
 .languages li {
+	padding: 5px;
 	border-radius: 5px;
 	margin: 5px;
 	background-color: #61cfd3; 	
@@ -289,6 +292,7 @@ a:focus {
 	height: 50px;
 	padding: 0;	
 	margin-right: 20px;
+	margin-bottom: 10px;
 	border-radius: 50%;
 	background-color: #cb63ed;
 	line-height: 50px;
@@ -384,11 +388,15 @@ a:focus {
 }
 
 .dl-horizontal dd {
-	margin-left: 165px;
+	margin-left: 130px;
 }
 
 .dl-horizontal dt {
-	width: 135px;
+	width: 95px;
+}
+
+.img-location {
+	padding: 20px;
 }
 
 /*===============================================================================
@@ -449,6 +457,15 @@ footer a:hover {
 *================================================================================*/
 
 @media (max-width: 991px) {
+
+	.follow-links {
+		padding: 10px; 
+	}
+
+	.follow-links li {
+		padding: 0 10px; 
+	}
+
 	.footer-item-right {
 		width: 300px;
 	}
@@ -471,7 +488,6 @@ footer a:hover {
 	.header {
 		text-align: center;		
 	}
-
 
 	.links-info {
 		text-align: center;
@@ -500,7 +516,8 @@ footer a:hover {
 	.follow-links,
 	.used-techs,
 	.project-name,
-	.title-section {
+	.title-section,
+	.project-description-text {
 		text-align: center;
 	}
 

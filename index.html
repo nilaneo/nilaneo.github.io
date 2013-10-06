@@ -36,7 +36,7 @@
                 <!-- HOME -->
                 <div id="home" class="row main tab-pane fade active in">
                     <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-0">
-                        <img src="img/neonila_2.jpg" alt="Neonila Shlikhtenko" class="img-circle img-responsive">          
+                        <img src="img/neonila_3.jpg" alt="Neonila Shlikhtenko" class="img-circle img-responsive">          
                     </div>
                     <div class="col-md-6 col-sm-7">
                         <h3 class="greeting">
@@ -54,7 +54,7 @@
                                 <span class="circle-text">My skills</span>
                             </a></li>                   
                         </ul>
-                        <div class="col-md-8 about-text">Building beautiful and accessible web pages is what I really love to do. Web standards, semantic code, user experience, building website good practices and everything about front-end development are my areas of expertise. I enjoy taking complex problems and turning them into simple and beautiful interface designs. I also love the logic and structure of coding and always strive to write elegant and efficient code, whether it be HTML, CSS or jQuery. Feel free to contact me if you want to talk about your website project.</div>               
+                        <div class="col-md-8 about-text">Building beautiful and accessible web pages is what I really love to do. Web standards, semantic code, user experience, building website good practices and everything about frontend development are my areas of expertise. <br> Feel free to contact me if you want to talk about your website project.</div>               
                     </div>                        
                 </div>    
                 <!-- RESUME -->
@@ -70,24 +70,29 @@
                                 <span class="circle-text">Professional info</span>
                             </h3>   
                             <p class="info-text" contenteditable >
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, inventore, sit, saepe accusantium impedit magni odit aliquid at eius laudantium error cum modi quibusdam fuga reprehenderit quod dolorum itaque ea.
+                                Building beautiful and accessible web pages is what I really love to do. Web standards, semantic code, user experience, building website good practices and everything about front-end development are my areas of expertise. <br> I enjoy taking complex problems and turning them into simple and beautiful interface designs. <br> I also love the logic and structure of coding and always strive to write elegant and efficient code, whether it be HTML, CSS or jQuery.
                             </p>
                         </div>                              
                         <div class="row resume-info">
                             <h3 class="info-name circle circle-resume">
                                 <span class="circle-text">Work experience</span>
                             </h3> 
-                            <p class="info-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, omnis, accusamus, architecto quam at recusandae repellendus asperiores delectus libero necessitatibus blanditiis atque tempore. Odio, dolores quasi quae temporibus ratione omnis.
-                            </p>
+                            <dl class="info-text">
+                                <dt>Summer 2013</dt>
+                                <dd>Automation QA Intern at Serena Software</dd>
+                            </dl>
                         </div>
                         <div class="row resume-info">
                             <h3 class="info-name circle circle-resume">
                                 <span class="circle-text">Education</span>
-                            </h3>          
-                            <p class="info-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, laudantium quos blanditiis cumque eligendi nobis iste adipisci. Id, minima, earum, quod, ut esse dolore laboriosam neque perspiciatis porro sit ab!
-                            </p>
+                            </h3> 
+                            <dl class="info-text">
+                                <dt>2010 - Present</dt>
+                                <dd>National Technical University of Ukraine "Kiev Polytechnic Institute" <br>
+                                    Faculty of informatics and computer science <br>
+                                    <strong>Specialty:</strong> Computer Science
+                                </dd>
+                            </dl>                         
                         </div>
                         <div class="row resume-info">
                             <a href="CV_Neonila_Shlikhtenko.pdf" class="info-name circle circle-resume circle-download">
@@ -108,13 +113,10 @@
                                     Skills
                                 </h3>
                                 <ul class="skills list-inline">
-                                    <li>HTML</li>
-                                    <li>CSS</li>
                                     <li>HTML5</li>
                                     <li>CSS3</li>
                                     <li>jQuery</li>
                                     <li>LESS</li>
-                                    <li>HAML</li>
                                     <li>SCSS</li>
                                     <li>SASS</li>
                                     <li>Firebug</li>
@@ -127,6 +129,8 @@
                                     <li>Scrum</li>                            
                                     <li>Html5 Boilerplate</li>
                                     <li>Adobe Photoshop</li>
+                                    <li>RWD</li>
+                                    <li>Mobile first</li>
                                     <li>VCS: Git</li>                            
                                 </ul>
                             </div>
@@ -158,7 +162,7 @@
                         <div class="row project">
                             <div class="col-sm-6 project-description">                            
                                 <div class="project-name">Project |01</div>
-                                <p class="project-description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, animi recusandae modi consectetur eum a et eligendi ea laborum distinctio dolor in quisquam inventore nemo esse. Earum, qui ipsa eveniet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, architecto, veritatis aut aperiam officia atque totam quisquam! Excepturi, quisquam sequi saepe laudantium doloremque ea consectetur non praesentium. Nulla, recusandae, consequuntur.</p> 
+                                <p class="project-description-text">Searching engine for pictures "Coolim"</p> 
                                 <ul class="used-techs">
                                     <li class="tech">HTML</li>
                                     <li class="tech">CSS</li>
@@ -166,24 +170,57 @@
                                 </ul>
                             </div>
                             <div class="col-sm-6 project-view">
+                                <div id="project-1-carousel" class="carousel slide">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#project-1-carousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#project-1-carousel" data-slide-to="1"></li>
+                                    </ol>
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="img/project_1_1.jpg" alt="Project_1_1">                   
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/project_1_2.jpg" alt="Project_1_2">                    
+                                        </div>
+                                    </div>
+                                    <!-- Controls -->
+                                    <a class="left carousel-control" href="#project-1-carousel" data-slide="prev">
+                                        <span class="icon-prev"></span>
+                                    </a>
+                                    <a class="right carousel-control" href="#project-1-carousel" data-slide="next">
+                                        <span class="icon-next"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div><!--end of row ptoject-->
+
+                        <div class="row project">
+                            <div class="col-sm-6 project-description">                            
+                                <div class="project-name">Project |02</div>
+                                <p class="project-description-text">Technical support of a site</p>  
+                                <ul class="used-techs">
+                                    <li class="tech">HTML</li>
+                                    <li class="tech">CSS</li>
+                                    <li class="tech">jQuery</li>
+                                </ul>                          
+                            </div>
+                            <div class="col-sm-6 project-view">
                                 <div id="project-2-carousel" class="carousel slide">
                                     <!-- Indicators -->
                                     <ol class="carousel-indicators">
                                         <li data-target="#project-2-carousel" data-slide-to="0" class="active"></li>
                                         <li data-target="#project-2-carousel" data-slide-to="1"></li>
-                                        <li data-target="#project-2-carousel" data-slide-to="2"></li>
                                     </ol>
                                     <!-- Wrapper for slides -->
                                     <div class="carousel-inner">
                                         <div class="item active">
-                                            <img src="img/pic1.png" alt="Project_1">                   
+                                            <img src="img/project_2_1.jpg" alt="Project_2_1">                   
                                         </div>
                                         <div class="item">
-                                            <img src="img/pic2.jpg" alt="Project_2">                    
+                                            <img src="img/project_2_2.jpg" alt="Project_2_2">                    
                                         </div>
-                                        <div class="item">
-                                            <img src="img/pic3.jpg" alt="Project_3">                    
-                                        </div>                          
                                     </div>
                                     <!-- Controls -->
                                     <a class="left carousel-control" href="#project-2-carousel" data-slide="prev">
@@ -198,44 +235,51 @@
 
                         <div class="row project">
                             <div class="col-sm-6 project-description">                            
-                                <div class="project-name">Project |02</div>
-                                <p class="project-description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, animi recusandae modi consectetur eum a et eligendi ea laborum distinctio dolor in quisquam inventore nemo esse. Earum, qui ipsa eveniet.</p>  
+                                <div class="project-name">Project |03</div>
+                                <p class="project-description-text">My resume site :)</p>  
                                 <ul class="used-techs">
                                     <li class="tech">HTML</li>
                                     <li class="tech">CSS</li>
                                     <li class="tech">jQuery</li>
+                                    <li class="tech">TB3</li>
+                                    <li class="tech">Bower</li>                                    
                                 </ul>                          
                             </div>
                             <div class="col-sm-6 project-view">
-                                <div id="project-1-carousel" class="carousel slide">
+                                <div id="project-3-carousel" class="carousel slide">
                                     <!-- Indicators -->
                                     <ol class="carousel-indicators">
-                                        <li data-target="#project-1-carousel" data-slide-to="0" class="active"></li>
-                                        <li data-target="#project-1-carousel" data-slide-to="1"></li>
-                                        <li data-target="#project-1-carousel" data-slide-to="2"></li>
+                                        <li data-target="#project-3-carousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#project-3-carousel" data-slide-to="1"></li>
+                                        <li data-target="#project-3-carousel" data-slide-to="2"></li>
+                                        <li data-target="#project-3-carousel" data-slide-to="3"></li>
                                     </ol>
                                     <!-- Wrapper for slides -->
                                     <div class="carousel-inner">
                                         <div class="item active">
-                                            <img src="img/pic1.png" alt="Project_1">                   
+                                            <img src="img/project_3_1.jpg" alt="Project_3_1">                   
                                         </div>
                                         <div class="item">
-                                            <img src="img/pic2.jpg" alt="Project_2">                    
+                                            <img src="img/project_3_2.jpg" alt="Project_3_2">                    
                                         </div>
                                         <div class="item">
-                                            <img src="img/pic3.jpg" alt="Project_3">                    
-                                        </div>                          
+                                            <img src="img/project_3_3.jpg" alt="Project_3_3">                    
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/project_3_4.jpg" alt="Project_3_4">                    
+                                        </div>
                                     </div>
                                     <!-- Controls -->
-                                    <a class="left carousel-control" href="#project-1-carousel" data-slide="prev">
+                                    <a class="left carousel-control" href="#project-3-carousel" data-slide="prev">
                                         <span class="icon-prev"></span>
                                     </a>
-                                    <a class="right carousel-control" href="#project-1-carousel" data-slide="next">
+                                    <a class="right carousel-control" href="#project-3-carousel" data-slide="next">
                                         <span class="icon-next"></span>
                                     </a>
                                 </div>
                             </div>
                         </div><!--end of row ptoject-->
+
                         <div class="row see-more">
                             <a href="" class="j-alternative-contact-link circle talk">
                                 <span class="circle-text">Let's talk</span>
@@ -249,14 +293,14 @@
 
                 <!-- CONTACT -->
                 <div id="contact" class="row main projects tab-pane fade">
-                    <div class="col-md-7 col-md-offset-2 col-sm-12 col-sm-offset-0">
+                    <div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0">
                         <div class="row contact">
                             <div class="col-md-12">
                                 <h1 class="title title-section">Contact</h1> 
                             </div>                      
                         </div>
                         <div class="row">
-                            <div class="col-12">                            
+                            <div class="col-lg-7 col-md-8 col-sm-6 remove-left-padding">                            
                                 <dl class="dl-horizontal contact-items">
                                     <dt>Location:</dt>
                                     <dd>Kyiv, Ukraine</dd>
@@ -284,6 +328,9 @@
                                         </a>
                                     </li> 
                                 </ul>
+                            </div>
+                            <div class="col-lg-5 col-md-4 col-sm-6">
+                               <img src="img/kyiv.jpg" class="img-circle img-responsive img-location"> 
                             </div>
                         </div>                    
                     </div>
