@@ -34,7 +34,7 @@ a:focus {
 .subtitle {
 	margin-top: -4px;
 	color: #606060;
-    font: 25px/1.2em "Noticia Text";
+    font: 25px "Noticia Text";
 }
 
 /* Navigation
@@ -477,14 +477,6 @@ footer a:hover {
 
 @media (max-width: 767px) {
 
-	.footer-item-right {
-		width: 220px;
-	}
-
-	.footer-item-left {
-		width: 220px;
-	}	
-
 	.header {
 		text-align: center;		
 	}
@@ -528,6 +520,14 @@ footer a:hover {
 
 	.carousel {
 		margin: 0 auto;
+	}
+
+	.footer-item-right {
+		width: 220px;
+	}
+
+	.footer-item-left {
+		width: 220px;
 	}
 }
 
