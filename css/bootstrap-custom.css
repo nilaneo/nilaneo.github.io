@@ -4,11 +4,11 @@ html {
 }
 
 body {
-	min-width: 320px;	
+	min-width: 320px;
 }
 
 a:focus {
-  outline: none;  
+  outline: none;
 }
 
 
@@ -40,7 +40,7 @@ a:focus {
 /* Navigation
 *================================================================================*/
 
-.nav-light {	
+.nav-light {
 	font: normal 12px "Noticia Text";
 	line-height: 12px;
 	text-transform: uppercase;
@@ -48,7 +48,7 @@ a:focus {
 
 .nav-light li {
 	display: inline-block;
-	padding-right: 20px;		
+	padding-right: 20px;
 }
 
 .nav-light a {
@@ -90,7 +90,7 @@ a:focus {
 	width: 120px;
 	height: 120px;
 	border-radius: 50%;
-	background-color: #cb63ed;	
+	background-color: #cb63ed;
 }
 
 .circle-text {
@@ -101,15 +101,15 @@ a:focus {
 *================================================================================*/
 
 .greeting {
-	color: #606060;	
+	color: #606060;
 	font: 46px "Noticia Text";
 	line-height: 20px;
 }
 
 .greeting strong {
-	color: #606060;	
+	color: #606060;
 	font: bolder 2em "Noticia Text";
-	letter-spacing: -4px;	
+	letter-spacing: -4px;
 }
 
 .links-info li {
@@ -117,8 +117,8 @@ a:focus {
 	padding-left: 0;
 }
 
-.links-info a {	
-	background-color: #e83556;	
+.links-info a {
+	background-color: #e83556;
     text-align: center;
 	color: #fff;
 	font: 13px Open Sans;
@@ -128,7 +128,7 @@ a:focus {
 }
 
 .links-info .link-resume {
-	background-color: #cb63ed;		
+	background-color: #cb63ed;
 }
 
 .link-resume:hover {
@@ -137,7 +137,7 @@ a:focus {
 }
 
 .links-info .link-work {
-	background-color: #61cfd3;	
+	background-color: #61cfd3;
 }
 
 .link-work:hover {
@@ -146,7 +146,7 @@ a:focus {
 }
 
 .links-info .link-skills {
-	background-color: #d1c825;	
+	background-color: #d1c825;
 }
 
 .link-skills:hover {
@@ -154,7 +154,7 @@ a:focus {
 	transition: background-color 0.4s ease 0s;
 }
 
-.about-text {	
+.about-text {
 	color: #606060;
 	font: 14px "Noticia Text";
 }
@@ -209,7 +209,7 @@ a:focus {
 	height: 45px;
 	margin-right: 10px;
 	color: #fff;
-	text-align: center;	
+	text-align: center;
 	font-weight: normal;
 	font-size: 30px;
 }
@@ -226,7 +226,7 @@ a:focus {
 	color: #606060;
 }
 
-.skills, 
+.skills,
 .languages {
 	padding-left: 0;
 	color: #fff;
@@ -234,12 +234,12 @@ a:focus {
 	list-style-type: none;
 }
 
-.skills li, 
+.skills li,
 .languages li {
 	padding: 5px;
 	border-radius: 5px;
 	margin: 5px;
-	background-color: #61cfd3; 	
+	background-color: #61cfd3;
 }
 
 .circle-resume {
@@ -260,14 +260,14 @@ a:focus {
 	border-bottom: 1px solid #c3bfbe;
 }
 
-.project {	
+.project {
 	border-bottom: 1px solid #c3bfbe;
 	padding: 40px 0;
 }
 
 .project-name {
-	padding: 10px 0;	
-	margin-top: 10px;
+	padding: 10px 0;
+	margin-top: -20px;
 	color: #606060;
 	font: 17px "Noticia Text", sans-serif;
 }
@@ -278,25 +278,43 @@ a:focus {
 	font: 13px "Open Sans", sans-serif;
 }
 
-.used-techs {	
+.project-links {
 	padding: 0;
 	padding-bottom: 20px;
 	margin: 0;
+	margin-left: -10px;
 	color: #fff;
-	font: 12px "Open Sans", sans-serif;	
+	font: 12px "Open Sans", sans-serif;
 }
 
-.tech {
+.project-link {
 	display: inline-block;
 	width: 50px;
 	height: 50px;
-	padding: 0;	
-	margin-right: 20px;
+	padding: 4px 0;
 	margin-bottom: 10px;
 	border-radius: 50%;
+	color: #fff;
 	background-color: #cb63ed;
 	line-height: 50px;
 	text-align: center;
+}
+
+.project-link:hover {
+	background-color: #8c36a8;
+}
+
+.used-techs {
+	margin-left: -10px;
+	color: #fff;
+	font: 14px "sans-serif";
+}
+
+.tech {
+	padding: 5px;
+	border-radius: 5px;
+	margin: 5px;
+	background-color: #61cfd3;
 }
 
 .see-more {
@@ -351,7 +369,7 @@ a:focus {
 	width: 80px;
 	height: 80px;
 	padding: 0;
-	background-color: #cb63ed;	
+	background-color: #cb63ed;
 	text-align: center;
 }
 
@@ -374,11 +392,11 @@ a:focus {
 }
 
 .follow-links li {
-	padding: 0 20px; 
+	padding: 0 20px;
 }
 
 .follow-links a {
-	color: #fff;	
+	color: #fff;
 }
 
 .social-network-name {
@@ -404,7 +422,7 @@ a:focus {
 *================================================================================*/
 
 footer {
-	min-height: 150px;	
+	min-height: 150px;
 	padding-top: 40px;
 	background-color: #cb63ed;
 	text-align: center;
@@ -412,7 +430,7 @@ footer {
 
 footer span {
 	display: inline-block;
-	padding: 10px 0 10px 10px;	
+	padding: 10px 0 10px 10px;
 	color: #fff;
 	font: 13px "Noticia Text", sans-serif;
 	letter-spacing: .2px;
@@ -424,7 +442,7 @@ footer a:hover {
 	margin-right: 8px;
 	text-decoration: none;
 	color: #fff;
-} 
+}
 
 .footer-item {
 	padding: 0 7px;
@@ -432,7 +450,7 @@ footer a:hover {
 }
 
 .footer-icon {
-	display: inline-block;	
+	display: inline-block;
 	width: 50px;
 	height: 50px;
 	padding: 0;
@@ -459,11 +477,11 @@ footer a:hover {
 @media (max-width: 991px) {
 
 	.follow-links {
-		padding: 10px; 
+		padding: 10px;
 	}
 
 	.follow-links li {
-		padding: 0 10px; 
+		padding: 0 10px;
 	}
 
 	.footer-item-right {
@@ -472,18 +490,18 @@ footer a:hover {
 
 	.footer-item-left {
 		width: 100px;
-	}	
+	}
 }
 
 @media (max-width: 767px) {
 
 	.header {
-		text-align: center;		
+		text-align: center;
 	}
 
 	.links-info {
 		text-align: center;
-	}	
+	}
 
 	.img-circle {
 		display: block;
@@ -503,13 +521,14 @@ footer a:hover {
 	.dl-horizontal dd {
 		margin-left: 0;
 	}
-	
+
+	.title-section,
 	.contact-items,
 	.follow-links,
 	.used-techs,
 	.project-name,
-	.title-section,
-	.project-description-text {
+	.project-description-text,
+	.project-links {
 		text-align: center;
 	}
 
@@ -532,17 +551,17 @@ footer a:hover {
 }
 
 @media (max-width: 479px) {
-	.nav-light {	
+	.nav-light {
 		font: normal 8px;
 		line-height: 8px;
-	}	
+	}
 
 	.nav-light li {
-		padding-right: 0;		
+		padding-right: 0;
 	}
 
 	.nav-light li a {
-		padding: 10px;	
+		padding: 10px;
 	}
 
 	.greeting {
@@ -550,10 +569,10 @@ footer a:hover {
 		line-height: 10px;
 	}
 
-	.links-info a {	
-		font-size: 12px;		
+	.links-info a {
+		font-size: 12px;
 		line-height: 20px;
-	}	
+	}
 
 	.circle-xs-responsive {
 		width: 80px;
