@@ -24,4 +24,11 @@ $(function() {
 		$contactLink.trigger('click');
 	});
 
+	// Change the title
+	var originalTitle = document.title;
+    $('.j-new-title').click(function() {
+        var data = originalTitle + ' | ' + $(this).text();
+        document.title = data;
+    });
+
 });
