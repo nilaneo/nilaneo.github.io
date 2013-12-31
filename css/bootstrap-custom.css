@@ -189,6 +189,10 @@ a:focus {
 	vertical-align: middle;
 }
 
+.info-text dd {
+	margin-bottom: 30px;
+}
+
 .circle-download {
 	background-color: #d1c825;
 }
