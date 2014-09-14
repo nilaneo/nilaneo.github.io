@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     watch: {
       css: {
         files: '**/*.scss',
-        tasks: ['compass'],
+        tasks: ['compass', 'autoprefixer'],
         options: {
           spawn: false,
           livereload: true
@@ -26,6 +26,14 @@ module.exports = function(grunt) {
           livereload: true
         }
       }
+    },
+    autoprefixer: {
+      options: {
+        browsers: ['last 2 versions', 'ie 8', 'ie 9']
+      },
+      no_dest: {
+        src: 'css/main.css'
+      }
     }
     
   });
@@ -33,6 +41,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-autoprefixer');
 
   grunt.registerTask('default', ['compass', 'connect', 'watch']);
 
