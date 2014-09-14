@@ -1,0 +1,154 @@
+/*===============================================================================
+* MEDIA QUERIES
+*================================================================================*/
+
+@media (max-width: 991px) {
+
+	.follow-links {
+		padding: 10px;
+	}
+
+	.follow-links li {
+		padding: 0 10px;
+	}
+
+	.footer-item-right {
+		width: 300px;
+	}
+
+	.footer-item-left {
+		width: 100px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.header {
+		text-align: center;
+	}
+
+	.links-info {
+		text-align: center;
+	}
+
+	.img-circle {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.greeting {
+		text-align: center;
+	}
+
+	.side-info {
+		padding-top: 20px;
+		margin-top: 0;
+		border-top: 1px solid $silver;
+	}
+
+	.dl-horizontal dd {
+		margin-left: 0;
+	}
+
+	.title-section,
+	.contact-items,
+	.follow-links,
+	.used-techs,
+	.project-name,
+	.project-description-text,
+	.project-links {
+		text-align: center;
+	}
+
+	.contact-items dt {
+		float: none;
+		width: 100%;
+	}
+
+	.carousel {
+		margin: 0 auto;
+	}
+
+	.footer-item-right {
+		width: 220px;
+	}
+
+	.footer-item-left {
+		width: 220px;
+	}
+}
+
+@media (max-width: 479px) {
+	.nav-light {
+		font: normal 8px;
+		line-height: 8px;
+
+		li {
+			padding-right: 0;
+
+			a {
+				padding: 10px;
+			}
+		}
+	}
+
+	.greeting {
+		font-size: 37px;
+		line-height: 10px;
+	}
+
+	.links-info a {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.circle-xs-responsive {
+		width: 80px;
+		height: 80px;
+	}
+
+	.main {
+		padding: 20px 0;
+	}
+
+	.about-text {
+		text-align: justify;
+	}
+
+	.title-section {
+		font-size: 60px;
+	}
+
+	.info-text {
+		padding: 0 20px;
+		margin-left: 0;
+	}
+
+	.circle-resume {
+		display: block;
+		float: none;
+		width: 100%;
+		height: auto;
+		padding: 10px 20px;
+		margin: 0;
+		background: none;
+		color: $scorpion;
+		font-size: 30px;
+		font-weight: bold;
+		border-radius: 0;
+	}
+
+	.circle-download {
+		text-decoration: underline;
+
+		&:hover,
+		&:focus {
+			background: none;
+			text-decoration: none;
+		}
+	}
+
+	.circle-resume-title {
+		font-size: 14px;
+	}
+}

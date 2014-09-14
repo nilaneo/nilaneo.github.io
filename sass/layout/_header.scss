@@ -1,0 +1,29 @@
+/*===============================================================================
+* HEADER
+*================================================================================*/
+
+.header {
+	> .row {
+		background-color: $white;
+	}
+}
+
+.title {
+	color: $scorpion;
+	font: 43px/1.2em bold "Noticia Text", sans-serif;
+	a {
+		color: $scorpion;
+	}
+
+	a:hover,
+	a:focuse {
+		color: $scorpion;
+		text-decoration: none;
+	}
+}
+
+.subtitle {
+	margin-top: -4px;
+	color: $scorpion;
+    font: 25px "Noticia Text";
+}

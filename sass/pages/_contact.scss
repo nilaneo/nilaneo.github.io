@@ -1,0 +1,58 @@
+/* CONTACT
+*================================================================================*/
+
+.contact {
+	border-bottom: 1px solid $silver;
+}
+
+.contact-link {
+	width: 80px;
+	height: 80px;
+	padding: 0;
+	background-color: $heliotrope;
+	text-align: center;
+}
+
+.contact-link:hover {
+	background-color: #8c36a8;
+}
+
+.contact-items {
+	padding-left: 20px;
+	color: $scorpion;
+	font: 20px "Open sans", sans-serif;
+}
+
+.title-follow {
+	font-size: 28px;
+}
+
+.follow-links {
+	padding: 30px;
+}
+
+.follow-links li {
+	padding: 0 20px;
+}
+
+.follow-links a {
+	color: $white;
+}
+
+.social-network-name {
+	padding-left: 10px;
+	color: $scorpion;
+	font: 16px "sans-serif";
+}
+
+.dl-horizontal dd {
+	margin-left: 130px;
+}
+
+.dl-horizontal dt {
+	width: 95px;
+}
+
+.img-location {
+	padding: 20px;
+}

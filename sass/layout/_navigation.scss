@@ -1,0 +1,30 @@
+/* Navigation
+*================================================================================*/
+
+.nav-light {
+	font: normal 12px/12px "Noticia Text";
+	text-transform: uppercase;
+}
+
+.nav-light {
+	li {
+		display: inline-block;
+		padding-right: 20px;
+	}
+
+	a {
+		color: $silver;
+	}
+
+	a:hover {
+		color: $viking;
+	}
+}
+
+.nav-light .active a {
+	color: $viking;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: transparent;
+}

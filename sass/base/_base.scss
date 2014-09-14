@@ -1,0 +1,13 @@
+html {
+	height: 100%;
+	background-color: $heliotrope;
+}
+
+body {
+	min-width: 320px;
+	background-color: $alto;
+}
+
+a:focus {
+  outline: none;
+}

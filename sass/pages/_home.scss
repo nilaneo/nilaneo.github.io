@@ -1,0 +1,61 @@
+/* HOME
+*================================================================================*/
+
+.greeting {
+	color: $scorpion;
+	font: 46px "Noticia Text";
+	line-height: 20px;
+}
+
+.greeting strong {
+	color: $scorpion;
+	font: bolder 2em "Noticia Text";
+	letter-spacing: -4px;
+}
+
+.links-info li {
+	padding: 10px;
+	padding-left: 0;
+}
+
+.links-info a {
+	background-color: #e83556;
+    text-align: center;
+	color: $white;
+	font: 13px Open Sans;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 30px;
+}
+
+.links-info .link-resume {
+	background-color: $heliotrope;
+}
+
+.link-resume:hover {
+	background-color: #8c36a8;
+	transition: background-color 0.4s ease 0s;
+}
+
+.links-info .link-work {
+	background-color: $viking;
+}
+
+.link-work:hover {
+	background-color: #408a8d;
+	transition: background-color 0.4s ease 0s;
+}
+
+.links-info .link-skills {
+	background-color: #d1c825;
+}
+
+.link-skills:hover {
+	background-color: #8b8519;
+	transition: background-color 0.4s ease 0s;
+}
+
+.about-text {
+	color: $scorpion;
+	font: 14px "Noticia Text";
+}

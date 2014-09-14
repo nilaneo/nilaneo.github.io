@@ -1,0 +1,51 @@
+/*===============================================================================
+* FOOTER
+*================================================================================*/
+
+footer {
+	min-height: 150px;
+	padding-top: 40px;
+	background-color: $heliotrope;
+	text-align: center;
+	span {
+		display: inline-block;
+		padding: 10px 0 10px 10px;
+		color: $white;
+		font: 13px "Noticia Text", sans-serif;
+		letter-spacing: .2px;
+		text-align: left;
+	}
+
+	a,
+	a:hover {
+		margin-right: 8px;
+		text-decoration: none;
+		color: $white;
+	}
+}
+
+.footer-item {
+	padding: 0 7px;
+	margin-bottom: 25px;
+}
+
+.footer-icon {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	padding: 0;
+	border-radius: 50%;
+	background-color: $viking;
+	color: $white;
+	font: 14px;
+	line-height: 60px;
+	text-align: center;
+}
+
+.remove-left-padding {
+	padding-left: 0;
+}
+
+.remove-right-padding {
+	padding-right: 0;
+}

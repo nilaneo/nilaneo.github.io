@@ -1,0 +1,91 @@
+/* RESUME
+*================================================================================*/
+
+.resume {
+	padding-top: 0;
+}
+
+.resume-info {
+	padding: 20px 0;
+	border-top: 1px solid $silver;
+}
+
+.info-name {
+	color: $white;
+	font: 17px "Noticia Text", sans-serif;
+}
+
+.info-text {
+	margin-left: 120px;
+	padding: 20px;
+	color: $scorpion;
+	font: 16px "sans-serif";
+	vertical-align: middle;
+}
+
+.info-text dd {
+	margin-bottom: 30px;
+}
+
+.circle-download {
+	background-color: #d1c825;
+}
+
+.circle-download:hover {
+	background-color: #8b8519;
+}
+
+.circle-download,
+.circle-download:hover,
+.circle-download:focus {
+	color: $white;
+	text-decoration: none;
+}
+.side-info {
+	margin-top: 51px;
+}
+
+.circle-resume-icon {
+	float: left;
+	width: 45px;
+	height: 45px;
+	margin-right: 10px;
+	color: $white;
+	text-align: center;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.circle-resume-title {
+	padding-right: 0;
+	line-height: 45px;
+}
+
+.information-extra .info-name {
+	display: block;
+	padding-bottom: 10px;
+	border-bottom: 1px solid $silver;
+	color: $scorpion;
+}
+
+.skills,
+.languages {
+	padding-left: 0;
+	color: $white;
+	font: 14px "sans-serif";
+	list-style-type: none;
+}
+
+.skills li,
+.languages li {
+	padding: 5px;
+	border-radius: 5px;
+	margin: 5px;
+	background-color: $viking;
+}
+
+.circle-resume {
+	float: left;
+	padding: 10px;
+	text-align: center;
+}
